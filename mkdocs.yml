@@ -1,0 +1,77 @@
+site_name: GoCare Roadmap
+site_description: Requirements analysis for the GoCare roadmap features.
+site_author: Shams Abdelhalim
+
+theme:
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Overview: index.md
+  - "Status & Action Plan (Nov 2026)":
+      - "Action Plan": action-plan.md
+      - "Integration Status": integration-status.md
+      - "Review Notes": review-notes.md
+  - "Final Decisions": final-decisions.md
+  - "Reading Guide": reading-guide.md
+  - "Team Requests ⬆ High Priority": team-requests.md
+  - "Recommendation System":
+      - recommendation/index.md
+      - "Smart Salon Services": recommendation/smart-salon-services.md
+      - "Skincare Routine Advisor": recommendation/skincare-routine-advisor.md
+      - "Personalized Marketing": recommendation/personalized-marketing.md
+      - "Churn Prediction": recommendation/churn-prediction.md
+      - "Visual Search": recommendation/visual-search.md
+      - "Model Compression": recommendation/model-compression.md
+      - "Analytics Dashboard": recommendation/analytics-dashboard.md
+      - "Demand Forecasting": recommendation/demand-forecasting.md
+      - "Automated Content Tagging": recommendation/automated-content-tagging.md
+      - "Sentiment Analysis": recommendation/sentiment-analysis.md
+      - "Dynamic Pricing Optimization": recommendation/dynamic-pricing-optimization.md
+      - "Collaborative Filtering": recommendation/collaborative-filtering.md
+      - "Deep Learning Models": recommendation/deep-learning-models.md
+      - "Content Creation": recommendation/content-creation.md
+      - "Context-Aware Recommendations": recommendation/context-aware-recommendations.md
+      - "Social Recommendations": recommendation/social-recommendations.md
+      - "AI/ML Innovation": recommendation/ai-ml-innovation.md
+  - "Agents":
+      - agents/index.md
+      - "Conversation Memory Management": agents/conversation-memory-management.md
+      - "Session Management": agents/session-management.md
+      - "Context Awareness": agents/context-awareness.md
+      - "User Profiles & Authentication": agents/user-profiles-authentication.md
+      - "User Preferences & Settings": agents/user-preferences-settings.md
+      - "Personalization Engine": agents/personalization-engine.md
+      - "Clarification & Fallback Handling": agents/clarification-fallback-handling.md
+      - "Response Quality Improvements": agents/response-quality-improvements.md
+      - "Interactive Elements": agents/interactive-elements.md
+      - "Conversation Flow Control": agents/conversation-flow-control.md
+      - "Feedback Collection": agents/feedback-collection.md
+      - "User Engagement Features": agents/user-engagement-features.md
+      - "Proactive Engagement": agents/proactive-engagement.md
+      - "Order Management": agents/order-management.md
+      - "Customer Profile Integration": agents/customer-profile-integration.md
+      - "Advanced Product Recommendations": agents/advanced-product-recommendations.md
+      - "Conversation Analytics": agents/conversation-analytics.md
+      - "Performance Metrics": agents/performance-metrics.md
+      - "Business Intelligence": agents/business-intelligence.md
+      - "Multi-Agent Workflows": agents/multi-agent-workflows.md
+      - "Advanced Tool Management": agents/advanced-tool-management.md
+      - "Multi-Channel Support": agents/multi-channel-support.md
+      - "Voice Interface": agents/voice-interface.md
+      - "Admin Dashboard": agents/admin-dashboard.md
+      - "Testing & Quality Assurance": agents/testing-quality-assurance.md
+      - "Loyalty Program Integration": agents/loyalty-program-integration.md
+      - "Content Management": agents/content-management.md
